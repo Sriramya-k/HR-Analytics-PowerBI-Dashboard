@@ -1,7 +1,9 @@
 # HR Analytics Dashboard - Power BI
 
 ## Dashboard Preview
-![Headcount & Attrition]HR-img1.png
+![Headcount & Attrition](HR-img1.png)
+![Training & Development](HR-img2.png)
+![Engagement & Satisfaction](HR-img3.png)
 
 ---
 
@@ -14,7 +16,7 @@
 
 ## Dataset
 - **Source:** [HR Analytics Dataset - Kaggle](https://www.kaggle.com/code/abdelazizelserty/hr-analytics-dataset?select=Messy_HR_Dataset_Detailed.csv)
-- **File:** Messy_HR_Dataset_Detailed.csv
+- **Cleaned Data File:**  [HR Cleaned Dataset](HR_cleaned_dataset.csv)
 - **Records:** 3,000 rows | 35+ columns
 
 ---
@@ -24,7 +26,6 @@
 - Changed Employee ID from Integer to Text
 - Created End Date column (Exit Date or Today's date for active employees)
 - Calculated Tenure in Years
-- Replaced "Unk" with "Unknown" in Termination Type
 - Removed irrelevant columns (Location Code, Race Description, Business Unit)
 - Removed duplicate rows
 
@@ -79,12 +80,12 @@
 - Dataset spans multiple years — attrition rate of 51.10% is cumulative, not annual
 - Business Unit column had unclear abbreviations and was excluded
 - Single table model — no star schema or relationship modelling applied
-- Exit interview data not available to analyze root causes of attrition
+- Exit interview data contains unstructured text and could not be used for meaningful analysis
 
 ---
 
 ## Author
-**Your Name**
-- LinkedIn: *your link*
-- GitHub: *your link*
+**Sriramya Durga K**
+- LinkedIn: *www.linkedin.com/in/sriramya-durga-k*
+- GitHub: *https://github.com/Sriramya-k*
 
