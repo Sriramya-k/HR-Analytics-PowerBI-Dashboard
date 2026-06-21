@@ -2,7 +2,7 @@
 
 ## Dashboard Preview
 ![Headcount & Attrition](HR-img1.png)
-![Training & Development](HR-img2.png)
+![Training & Development](https://github.com/Sriramya-k/HR-Analytics-PowerBI-Dashboard/blob/525da8067e35760a8e17101b5f24ca34db758afb/HR%20img2N.png)
 ![Engagement & Satisfaction](HR-img3.png)
 
 ---
@@ -45,7 +45,7 @@
 - Pass & Fail rate by Training Program
 - Training Cost trend by Month
 - Training Count by Outcome and Type
-- Slicers: Training Date, Trainer, Training Type, Training Outcome
+- Slicers: Training Date, Training program, Training Type, Training Outcome
 
 ### Page 3 — Engagement & Satisfaction
 - KPIs: Avg Employee Rating, Engagement Score, Satisfaction Score, Work-Life Balance Score
